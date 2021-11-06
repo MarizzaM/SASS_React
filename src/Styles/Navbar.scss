@@ -5,13 +5,14 @@
     background: $deepBlue;
     ul{
         width: 100%;
+        padding-inline-start: 0px;
         @include clearFix;
     }
     li{
         list-style-type : none;
         float: left;
         width: (100% / 6);
-        
+
         @include mQ(600px){
             width: 100%;
         }
