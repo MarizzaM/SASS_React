@@ -6,6 +6,12 @@
   width: 100%;
 }
 
+.navbar ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .navbar li {
   list-style-type: none;
   float: left;
@@ -18,6 +24,10 @@
   padding: 16px 0;
   display: block;
   text-align: center;
+}
+
+.navbar a:hover {
+  background: #333;
 }
 
 .navbar ul:after {
