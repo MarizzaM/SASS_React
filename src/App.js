@@ -8,9 +8,9 @@ function App() {
 
       <Navbar />
       <MainPage />
-      
+
     </div>
   );
-}
+} 
 
 export default App;

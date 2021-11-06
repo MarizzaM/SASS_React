@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,QAAQ,CAAC,EAAE,CAAC;EACR,KAAK,EAJE,OAAO;EAKd,SAAS,EAJI,IAAI;CAKpB",
+    "sources": [
+        "MainPage.scss"
+    ],
+    "names": [],
+    "file": "MainPage.css"
+}
