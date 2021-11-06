@@ -18,6 +18,12 @@
   width: 16.66667%;
 }
 
+@media screen and (max-width: 600px) {
+  .navbar li {
+    width: 100%;
+  }
+}
+
 .navbar a {
   color: #f8f9fb;
   text-decoration: none;
@@ -28,11 +34,5 @@
 
 .navbar a:hover {
   background: #044156;
-}
-
-.navbar ul:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 /*# sourceMappingURL=Navbar.css.map */

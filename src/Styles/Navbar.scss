@@ -5,13 +5,16 @@
     background: $deepBlue;
     ul{
         width: 100%;
-
         @include clearFix;
     }
     li{
         list-style-type : none;
         float: left;
         width: (100% / 6);
+        
+        @include mQ(600px){
+            width: 100%;
+        }
     }
     a {
         color: $offWhite;
@@ -26,8 +29,3 @@
     }
 }
 
-.navbar ul:after{
-    content: "";
-    display: block;
-    clear: both;
-}
