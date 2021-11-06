@@ -102,4 +102,23 @@
   display: block;
   clear: both;
 }
+
+.projects
+li {
+  list-style-type: none;
+  float: left;
+  width: 15%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.projects
+li:nth-child(6n) {
+  margin-right: 0;
+}
+
+.projects
+li img {
+  width: 100%;
+}
 /*# sourceMappingURL=MainPage.css.map */

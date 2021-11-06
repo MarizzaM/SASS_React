@@ -44,3 +44,12 @@
     @include clearFix;
     margin-bottom: 60px;
   }
+
+.projects
+  li{
+    list-style-type : none;
+    @include grid(6, 2%);
+    img{
+      width: 100%;
+    }
+  }
