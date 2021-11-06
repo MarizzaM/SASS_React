@@ -69,4 +69,37 @@
   max-width: 1000px;
   margin: 60px 0;
 }
+
+.services {
+  margin-bottom: 60px;
+}
+
+.services .items {
+  float: left;
+  width: 33.33333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.services img {
+  width: 60%;
+  margin: 20px 20%;
+}
+
+.services a {
+  text-decoration: none;
+  color: #032f3e;
+  font-weight: bold;
+}
+
+.services a:hover {
+  color: red;
+}
+
+.services:after {
+  content: "";
+  display: block;
+  clear: both;
+}
 /*# sourceMappingURL=MainPage.css.map */
